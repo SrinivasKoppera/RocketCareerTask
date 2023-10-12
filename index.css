@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.bg-container{
+    height: 100%;
+    background: var(--background-dark, #2F1893);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-bar{
+    width: 972px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.logo-heading{
+    color: #ffffff;
+    font-size: 25px;
+}
+.nav-item{
+    text-decoration: none;
+    margin-left: 25px;
+    color: var(--colors-white, #FFF);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.purchase-btn{
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--action-third, #E93A7D);
+    color: var(--colors-white, #FFF);
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    outline: none;
+    border: none;
+}
+.body-container{
+    width: 972px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-container{
+    width: 40%;
+    flex-shrink: 0;
+}
+.description-heading{
+    color: var(--colors-white, #FFF);
+    font-family: "DM Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.description{
+    color: var(--colors-white, #FFF);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.learn-more-btn{
+    width: 157px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--action-third, #E93A7D);
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.form-container{
+    width: 50%;
+    border-radius: 10px;
+    background: var(--background-light, #FFF);
+    padding: 0px 60px;
+    margin: 30px;
+}
+.sign-up-heading{
+    color: var(--colors-heading, #1E0E62);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-field{
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid var(--colors-grey, #EBEAED);
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 10px;
+}
+.check-box-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.label-text{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.check-box{
+    margin-right: 10px;
+    size: 30px;
+}
+.sign-in-btn{
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--action-secondary, #482BE7);
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.line-container{
+    margin: 15px 5px;
+    text-align: center;
+}
+.or-text{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.twitter-btn{
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--socials-twitter, #1DA1F2);
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.account-status-text{
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.sign-in-text{
+    color: var(--action-primary, #25DAC5);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
